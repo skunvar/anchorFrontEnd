@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^myaccount?$ myaccount.php
+RewriteRule ^logout?$ logout.php
+RewriteRule ^login?$ login.php
+RewriteRule ^home?$ index.php
+RewriteRule ^trade?$ trade.php
+RewriteRule ^f2auth?$ f2auth.php
+RewriteRule ^device_confirmations?$ device_confirmations.php
+RewriteRule ^deposit?$ deposit.php
+RewriteRule ^withdraw?$ withdraw.php
+RewriteRule ^transaction?$ transaction.php
+RewriteRule ^successsend?$ successsend.php
+RewriteRule ^forgetpassword?$ forgetpassword.php
+RewriteRule ^updateforgetpassword?$ updateforgetpassword.php
+RewriteRule ^verfiyforgetotp?$ verfiyforgetotp.php
